@@ -20,7 +20,7 @@ logHelloToConsole();
  */
 function logSum(a, b) {
     let sum = a + b;
-    console.log(`${a} + ${b} = ${sum}`);
+    console.log(`${a} + ${b} = ${sum}`);   // string interpolation "(`${a}`)" 
 }
 
 logSum(12, 33);
